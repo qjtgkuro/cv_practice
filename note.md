@@ -1,0 +1,2 @@
+＃ visual studio快捷鍵：cmd+d＝選取多個同樣的元素
+z-index可以利用來排序先後順序。在設定之前，要先將對齊對象的position從預設的static設定成relative才有可生效
