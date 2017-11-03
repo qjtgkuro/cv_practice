@@ -52,53 +52,57 @@ html {
     z-index: 1;
 }
 
-
-}
 .cv-header,
 .cv-body,
 .cv-footer {
     padding: 30px 50px;
 }
 
+
 /*cv-header*/
+
 .cv-header {
     background-color: #aaaaaa;
 }
 
+
 /*cv-body*/
+
 .experience {
     padding-top: 30px;
     padding-bottom: 15px;
     position: relative;
     border-bottom: 1px dashed #cccccc;
 }
+
 .experience:last-child {
     border-bottom: none;
 }
+
 .company-logo {
     top: 30px;
     right: 0;
     position: absolute;
     /*position預設為static，要改為absolute開啟定位功能，指定對齊的參考對象也要更改position設定成relative*/
-
     height: 40px;
 }
 
+
 /*cv-footer*/
+
 .cv-footer {
     padding: 60px 50px;
     background-color: #29323b;
 }
+
 .social-link {
     width: 40px;
     height: 40px;
     line-height: 40px;
     /*↑將行高設定與block高度相同，達成垂直置中效果*/
-
     text-align: center;
     display: inline-block;
     /*↑解除行內元素inline魔咒，變成有行內元素特性的區塊元素block：inline-block*/
-
     border-radius: 8px;
     vertical-align: top;
     text-decoration: none;
@@ -107,8 +111,11 @@ html {
     border: 1px dashed #FFF;
 }
 
+
 /* 主色(primary) #29323b */
 
+
 /* 強調色(accent) #E2C0B9 */
+
 
 /* 字體顏色 #333 */
